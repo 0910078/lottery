@@ -1,0 +1,24 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+    <form method="POST" action="">
+        <div>
+            <h5>Naam</h5>
+            <input type="text" name="firstname"/>
+        </div>
+        <div>
+            <h5>Achternaam</h5>
+            <input type="text" name="lastname"/>
+        </div>
+        <div>
+            <h5>Email</h5>
+            <input type="email" name="email"/>
+        </div>
+        <div>
+            <h5>Aantal loten</h5>
+            <input type="number" name="lastname"/>
+        </div>
+        <br>
+        <input type="submit" value="Submit"/>
+    </form>
+{% endblock content %}
